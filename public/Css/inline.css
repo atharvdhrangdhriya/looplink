@@ -1,0 +1,29 @@
+
+    .disabled {
+        pointer-events: none;
+        opacity: 0.4;
+    }
+    /* .body_dash{
+        background-color: #eee;
+    }     */
+    .popover {
+        color: #000;
+    }
+    .top-color {
+        background-color: #000000;
+        border: 1px solid #000000;
+        color:#fff;
+    }
+    .icon-color {
+        background-color: rgb(255, 255, 255, 1);
+    }
+    @media screen and (min-width: 321px) and (max-width: 800px) {
+        .main-body {
+          max-width: 390px;
+        }
+      }
+      @media screen and (min-width: 900px) and (max-width: 1024px) {
+        .main-body {
+            max-width: 600px;
+        }
+      }

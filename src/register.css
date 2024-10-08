@@ -1,0 +1,30 @@
+body{
+    background-color: #322C2C;
+}
+
+/* #322C2C */
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+
+    .img-fluid{
+        height: 100%;
+    }
+
+    
+
+    button.btn:hover  {
+        /* Styles for the button on hover */
+        background-color: wheat; /* Transparent background to mimic link */
+        border: 3px solid red;
+        color: #0cb300; /* Darker text color */
+        /* text-decoration: underline; Underline text */
+        border-color: transparent; /* Remove border */
+      }

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quality Button Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+        #qualityButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<button id="qualityButton">Quality</button>
+
+<script>
+    document.getElementById('qualityButton').addEventListener('click', function() {
+        Swal.fire({
+            title: 'Quality Information',
+            text: 'This is a quality pop-up message.',
+            icon: 'info',
+            confirmButtonText: 'Close'
+        });
+    });
+
+    document.getElementById('qualityButton').addEventListener('mouseover', function() {
+        Swal.fire({
+            title: 'Hovering!',
+            text: 'You are hovering over the Quality button.',
+            icon: 'info',
+            showCloseButton: true,
+            confirmButtonText: 'Got it!'
+        });
+    });
+</script>
+
+</body>
+</html>
+
